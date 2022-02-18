@@ -338,7 +338,7 @@ ul li {
 .hide {
    opacity: 0;
    transition: 0.5s;
-   z-index: 0;
+   z-index: -1;
 }
 .visible {
     opacity: 1;
@@ -589,7 +589,6 @@ input:checked[type='checkbox']::before {
     }
 }
 @media (max-width: 420px) {
-
     .switch {
         left: 65%;
     }
@@ -599,4 +598,8 @@ input:checked[type='checkbox']::before {
     padding: 0;
     margin: 0;
     visibility: hidden;
+}
+.git img {
+    width: 100%;
+    margin-top: -0.1rem;
 }
